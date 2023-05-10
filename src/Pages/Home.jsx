@@ -1,50 +1,58 @@
-import Typed from "typed.js";
-import { useEffect, useRef } from "react";
-
 //impot styles
 
-import '../App.css'
-import './Home.css'
+import '../index.css'
 
 //import img
 
-import mc from '../assets/mc.png'
+//import mc from '../assets/mc.png'
+
+//parallax text
+
+import ParallaxText from '../components/typed'
+
+import About from './About';
+import Contact from './Contact'
+import Services from './Services'
+import Banner from './Banner';
 
 export default function App() {
-  // Create Ref element.
-  const text = useRef(null);
-
-  useEffect(() => {
-    const typed = new Typed(text.current, {
-      strings: ["ENTRENADOR DE FUERZA", "ENTRENAMIENTO PRESENCIAL Y ONLINE", "POWERLIFTING"],
-      
-      startDelay: 300,
-      typeSpeed: 50,
-      backSpeed: 50,
-      backDelay: 200,
-      repeatDelay: 1000,
-      loop:true,
-    },[]);
-
-    // Destropying
-    return () => {
-      typed.destroy();
-    };
-  }, []);
-
   return (
-    <>
-      <div className="container__title">
-        <h1>Personal Trainer</h1>
-        <img src={mc} alt="mc" />
-        <h1>Matias Carrizo</h1>
+    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+
+      {/* <div className="container__title">
+
+        <h1 className='banner__h1'>Personal Trainer</h1>
+        <img className='banner__img' src={mc} alt="mc" />
+        <h3 className='banner__h3'>Matias Carrizo</h3>
+
       </div>
+
+     
+
       <div className="container__buttons">
-        <h3><span ref={text}></span></h3>
-        <button className="one">Leer más</button>
-        <button className="two">Contáctame</button>
+
+        <button className="container__buttons__button__one">Leer más</button>
+        <button className="container__buttons__button__two">Contáctame</button>
+
+      </div> */}
+
+      <Banner/>
+
+      <div className="container__typewrite">
+        
+        <ParallaxText baseVelocity={1}>ENTRENADOR DE FUERZA, ENTRENAMIENTO PRESENCIAL Y ONLINE, </ParallaxText>
+        <ParallaxText baseVelocity={5}>POWERLIFTING, POWERLIFTING, POWERLIFTING</ParallaxText>
+      
       </div>
-    </>
+
+      <About/>
+      <Contact/>
+      <Services/>
+
+      
+       
+      <div className='h-[1000px]'></div>
+    </div>
     
   );
 }

@@ -11,16 +11,16 @@ function Header() {
   };
 
   return (
-    <nav>
-      <div className="menu-icon" onClick={toggleMenu}>
+    <nav >
+      <div className="menu-icon z-10 absolute" onClick={toggleMenu}>
         {open ? <FaTimes /> : <FaBars />}
       </div>
-      <div className='logo'>
-        <h2>MC</h2>
-      </div>
-      <ul className={open ? 'nav-links show-links' : 'nav-links'}>
+      {/* <div className='logo z-10 absolute'>
+        <h2 className='banner__h2'>MC</h2>
+      </div> */}
+      <ul className={open ? 'nav-links show-links' : 'nav-links z-10 absolute'}>
         <li>
-          <Link to="/" className="nav-link" onClick={toggleMenu}>
+          <Link to="/personaltrainer" className="nav-link" onClick={toggleMenu}>
             Home
           </Link>
         </li>

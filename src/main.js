@@ -4,3 +4,4 @@ const typed = new Typed('.typed', {
         '<i>Hipertrofia muscular</i>',
         '<i>Adecuamiento muscular</i>']
 });
+
