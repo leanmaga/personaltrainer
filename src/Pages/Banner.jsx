@@ -7,6 +7,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../variants';
+//icons
+import { FaInstagram,  FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 
 const Banner = () => {
@@ -26,7 +28,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='text-[55px] font-bold leading-[0.8] lg:text-[110px] text-white'>
-              Martín <span>Carrizo</span>
+              Matias <span>Carrizo</span>
             </motion.h1>
 
 
@@ -62,6 +64,23 @@ const Banner = () => {
             ¿Estás listo para alcanzar el siguiente nivel?
             </motion.p>
 
+            <motion.div 
+              variants={fadeIn('up', 0.7)} 
+              initial='hidden' 
+              whileInView={'show'} 
+              viewport={{once: false, amount: 0.8}}  
+              className='flex mx-auto text-[20px] lg:text-start gap-x-6 max-w-max lg:mx-0 mb-4 icons-contact'>
+              <a href='https://instagram.com/' target="_blank" rel="noreferrer">
+                  <FaInstagram className='transition duration-300 ease-in-out hover:scale-150'/>
+              </a>
+              <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">
+                  <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150'/>
+              </a>
+              <a href='https://twitter.com/' target="_blank" rel="noreferrer">
+                  <FaTwitter className='transition duration-300 ease-in-out hover:scale-150'/>
+              </a>
+            </motion.div>
+
 
             <motion.div 
             variants={fadeIn('up', 0.6)} 
@@ -69,7 +88,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'><a href="#contact"> Contáctame </a></button>
+              <button className='btn btn-lg rounded-full'><a href="#contact"> Contáctame </a></button>
               <a className='text-gradient btn-link'>
                 Solicitá tu turno
               </a>
@@ -86,9 +105,9 @@ const Banner = () => {
           variants={fadeIn('down', 0.5)} 
           initial='hidden' 
           whileInView={'show'} 
-          className=' flex-1 max-w-[320px] lg:max-w-[482px] m-[3rem]'>
+          className=' flex-1 max-w-[320px] lg:max-w-[482px] m-[3rem] '>
             
-            <div className='figure bg-contain bg-no-repeat'>
+            <div className='figure bg-contain bg-no-repeat transition duration-300 ease-in-out hover:scale-110'>
               <img src={Image} alt='me' />
             </div>
             

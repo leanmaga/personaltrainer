@@ -19,23 +19,6 @@ export default function App() {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
 
-      {/* <div className="container__title">
-
-        <h1 className='banner__h1'>Personal Trainer</h1>
-        <img className='banner__img' src={mc} alt="mc" />
-        <h3 className='banner__h3'>Matias Carrizo</h3>
-
-      </div>
-
-     
-
-      <div className="container__buttons">
-
-        <button className="container__buttons__button__one">Leer más</button>
-        <button className="container__buttons__button__two">Contáctame</button>
-
-      </div> */}
-
       <Banner/>
 
       <div className="container__typewrite">

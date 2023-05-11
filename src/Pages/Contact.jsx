@@ -57,6 +57,7 @@ const Contact = () => {
                 className='flex-1 flex justify-start items-center m-4 p-4'>
                     <div>
                         <h4 className='text-x1 uppercase text-white font-medium mb-2 tracking-wide'>Get in touch</h4>
+                        <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[35%]" />
                         <h2 className='text-[45px] lg:text-[90px] text-white leading-none mb-12 '>Trabajemos <br />juntos!</h2>
                         <motion.div 
                             variants={fadeIn('up', 0.7)} 
@@ -64,14 +65,14 @@ const Contact = () => {
                             whileInView={'show'} 
                             viewport={{once: false, amount: 0.8}}  
                             className='flex text-[20px] gap-x-6 max-w-max lg:mx-0 mb-4 icons-contact'>
-                            <a href='https://instagram.com/le_mark2023' target="_blank" rel="noreferrer">
-                                <FaInstagram/>
+                            <a href='https://instagram.com/' target="_blank" rel="noreferrer">
+                                <FaInstagram className='transition duration-300 ease-in-out hover:scale-150'/>
                             </a>
-                            <a href='https://www.linkedin.com/in/leandromagallanes/' target="_blank" rel="noreferrer">
-                                <FaLinkedinIn/>
+                            <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">
+                                <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150'/>
                             </a>
-                            <a href='https://twitter.com/Le_Mark2023' target="_blank" rel="noreferrer">
-                                <FaTwitter/>
+                            <a href='https://twitter.com/' target="_blank" rel="noreferrer">
+                                <FaTwitter className='transition duration-300 ease-in-out hover:scale-150'/>
                             </a>
                         </motion.div>
                     </div>
@@ -132,7 +133,7 @@ const Contact = () => {
                     <button 
                     type="submit"
                     disabled={state.submitting}
-                    className="btn btn-lg">Enviar Mensaje</button>
+                    className="btn btn-lg rounded-full">Enviar Mensaje</button>
                 </motion.form>
             </div>
         </div>

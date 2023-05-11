@@ -42,8 +42,9 @@ const Services = () => {
           viewport={{ once: false, amount: 0.3 }}  
           className='flex-1 lg:bg-services lg:bg-bootom bg-no-repeat mix-blend-lighten m-12 lg:mb-0 '>
             <h2 className="h2 text-white mb-6">What I Do.</h2>
+            <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[25%]" />
             <h3 className='h3 text-white max-w-[455px] mb-16'>Soy un entrenador con 3 años de experiencia, </h3>
-            <button className="btn btn-sm"><a href="http://github.com/leanmaga" target="_blank" rel="noreferrer"> See my work</a></button>
+            <button className="btn btn-sm rounded-full"><a href="http://github.com" target="_blank" rel="noreferrer"> See my work</a></button>
           </motion.div>
           
 

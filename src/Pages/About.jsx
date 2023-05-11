@@ -17,7 +17,7 @@ const About = () => {
     threshold: 0.5,
   })
 
-  return <section id='about' className='section' ref={ref}>
+  return <section id='about' className='section p-10' ref={ref}>
 
     <div className='container'>
 
@@ -31,7 +31,7 @@ const About = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}  
           className='flex-1 mix-blend-lighten bg-top  '>
-            <img src={pesas} alt="levantando pesas" className='bg-about bg-contain bg-no-repeat h-[240px] md:h-[380px] lg:h-[380px]'/>
+            <img src={pesas} alt="levantando pesas" className='bg-about bg-contain bg-no-repeat h-[240px] md:h-[380px] lg:h-[380px] transition duration-300 ease-in-out hover:scale-110'/>
         </motion.div>
 
         {/*text*/}
@@ -43,8 +43,9 @@ const About = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex-1">
 
-            <h2 className='h2 text-white  text-lg font-semibold '>Sobre mí.</h2>
-            <h3 className='h3 mb-4 text-white text-lg font-extrabold t'>Hola! Me llamo Martin Carrillo</h3>
+            <h2 className='h2 text-white  text-lg font-semibold '>About me!</h2>
+            <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[25%]" />
+            <h3 className='h3 mb-4 text-white text-lg font-extrabold t'>Hola! Me llamo Matias Carrizo</h3>
             <p className='mb-6 text-blue-50 text-start'>Me especializo en entrenamiento personzalizado</p>
             
             {/*stats*/}
@@ -76,7 +77,7 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>
+              <button className='btn btn-lg rounded-full'>
                 <a href="#contact">Contactame</a>
               </button>
             </div>
