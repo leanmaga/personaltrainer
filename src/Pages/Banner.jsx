@@ -28,7 +28,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='text-[55px] font-bold leading-[0.8] lg:text-[110px] text-white'>
-              Matiass <span>Carrizo</span>
+              Matias <span>Carrizo</span>
             </motion.h1>
 
 
