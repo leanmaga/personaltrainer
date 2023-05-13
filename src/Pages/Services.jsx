@@ -4,6 +4,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../variants';
+//video
+import ReactPlayer from 'react-player';
+import  video1  from '../assets/197.mp4'
 //services data
 const services = [
   {
@@ -44,6 +47,7 @@ const Services = () => {
             <h2 className="h2 text-white mb-6">What I Do.</h2>
             <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[25%]" />
             <h3 className='h3 text-white max-w-[455px] mb-16'>Soy un entrenador con 3 años de experiencia, </h3>
+            <ReactPlayer url={video1} controls className='h-auto w-[200px]'/>
             <button className="btn btn-sm rounded-full"><a href="http://github.com" target="_blank" rel="noreferrer"> See my work</a></button>
           </motion.div>
           

@@ -31,7 +31,7 @@ const About = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}  
           className='flex-1 mix-blend-lighten bg-top  '>
-            <img src={pesas} alt="levantando pesas" className='bg-about bg-contain bg-no-repeat h-[240px] md:h-[380px] lg:h-[380px] transition duration-300 ease-in-out hover:scale-110'/>
+            <img src={pesas} alt="levantando pesas" className='bg-about bg-contain bg-no-repeat h-[240px] md:h-[380px] lg:h-[380px] transition duration-300 ease-in-out hover:scale-110 '/>
         </motion.div>
 
         {/*text*/}

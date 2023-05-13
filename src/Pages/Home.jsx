@@ -2,10 +2,6 @@
 
 import '../index.css'
 
-//import img
-
-//import mc from '../assets/mc.png'
-
 //parallax text
 
 import ParallaxText from '../components/typed'
@@ -29,12 +25,11 @@ export default function App() {
       </div>
 
       <About/>
-      <Contact/>
+      
       <Services/>
 
-      
+      <Contact/>
        
-      <div className='h-[1000px]'></div>
     </div>
     
   );
