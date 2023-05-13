@@ -17,7 +17,7 @@ const About = () => {
     threshold: 0.5,
   })
 
-  return <section id='about' className='section p-10' ref={ref}>
+  return <section id='about' className='section py-10 my-10' ref={ref}>
 
     <div className='container'>
 
@@ -43,7 +43,7 @@ const About = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex-1">
 
-            <h2 className='h2 text-white  text-lg font-semibold '>About me!</h2>
+            <h2 className='text-[55px] font-bold leading-[0.8] lg:text-[55px] text-white'>About me!</h2>
             <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[25%]" />
             <h3 className='h3 mb-4 text-white text-lg font-extrabold t'>Hola! Me llamo Matias Carrizo</h3>
             <p className='mb-6 text-blue-50 text-start'>Me especializo en entrenamiento personzalizado</p>

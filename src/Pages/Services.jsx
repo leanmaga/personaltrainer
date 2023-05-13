@@ -33,8 +33,8 @@ const services = [
 ]
 const Services = () => {
   return (
-    <section className='flex items-center' id='services'>
-      <div className="container mx-auto">
+    <section className='section py-10' id='services'>
+      <div className="container">
         <div className='flex flex-col lg:flex-row'>
           {/*text and img*/}
 
@@ -43,12 +43,14 @@ const Services = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}  
-          className='flex-1 lg:bg-services lg:bg-bootom bg-no-repeat mix-blend-lighten m-12 lg:mb-0 '>
-            <h2 className="h2 text-white mb-6">What I Do.</h2>
+          className='flex-1 items-center justify-center lg:bg-services lg:bg-bootom bg-no-repeat mix-blend-lighten m-12 lg:mb-0 '>
+            <h2 className="text-[55px] font-bold leading-[0.8] lg:text-[55px] text-white">What I Do.</h2>
             <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[25%]" />
             <h3 className='h3 text-white max-w-[455px] mb-16'>Soy un entrenador con 3 años de experiencia, </h3>
-            <ReactPlayer url={video1} controls className='h-auto w-[200px]'/>
             <button className="btn btn-sm rounded-full"><a href="http://github.com" target="_blank" rel="noreferrer"> See my work</a></button>
+            <div className='flex items-center w-[100%] pt-6 mt-6'>
+              <ReactPlayer url={video1} controls/>
+            </div>
           </motion.div>
           
 

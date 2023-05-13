@@ -17,7 +17,9 @@ const Contact = () => {
             <section className='py-16 lg:section' id='contact'>
                 <div className="container mx-auto">
                     <div className='flex flex-col lg:flex-row'>
+
                         {/*text*/}
+
                         <motion.div
                         variants={fadeIn('right', 0.3)} 
                         initial='hidden'
@@ -25,7 +27,7 @@ const Contact = () => {
                         viewport={{ once: false, amount: 0.3 }} 
                         className='flex-1 flex justify-start items-center'>
                             <div>
-                                <h4 className='text-x1 uppercase text-accent font-medium mb-2 tracking-wide'>Get in touch</h4>
+                                <h4 className='text-[55px] font-bold leading-[0.8] uppercase mb-2 tracking-wide'>Get in touch</h4>
                                 <h2 className='text-[45px] lg:text-[90px] leading-none mb-12 '>Trabajemos <br />juntos!</h2>
                             </div>
                         </motion.div>
@@ -56,7 +58,7 @@ const Contact = () => {
                 viewport={{ once: false, amount: 0.3 }} 
                 className='flex-1 flex justify-start items-center m-4 p-4'>
                     <div>
-                        <h4 className='text-x1 uppercase text-white font-medium mb-2 tracking-wide'>Get in touch</h4>
+                        <h4 className='text-[55px] font-bold leading-[0.8] uppercase mb-2 tracking-wide text-white'>Get in touch</h4>
                         <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[35%]" />
                         <h2 className='text-[45px] lg:text-[90px] text-white leading-none mb-12 '>Trabajemos <br />juntos!</h2>
                         <motion.div 
