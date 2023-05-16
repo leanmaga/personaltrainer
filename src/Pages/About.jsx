@@ -19,7 +19,7 @@ const About = () => {
 
   return <section id='about' className='section py-10 my-10' ref={ref}>
 
-    <div className='container'>
+    <div className='container sm:mt-10'>
 
       <div className='flex flex-col gap-y-10 lg:flex-row items-center lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
 
@@ -30,7 +30,7 @@ const About = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}  
-          className='flex-1 mix-blend-lighten bg-top  '>
+          className='flex-1 mix-blend-lighten bg-top sm:mt-10'>
             <img src={pesas} alt="levantando pesas" className='bg-about bg-contain bg-no-repeat h-[240px] md:h-[380px] lg:h-[380px] transition duration-300 ease-in-out hover:scale-110 '/>
         </motion.div>
 

@@ -68,13 +68,13 @@ const Contact = () => {
                             viewport={{once: false, amount: 0.8}}  
                             className='flex text-[20px] gap-x-6 max-w-max lg:mx-0 mb-4 icons-contact'>
                             <a href='https://instagram.com/' target="_blank" rel="noreferrer">
-                                <FaInstagram className='transition duration-300 ease-in-out hover:scale-150'/>
+                                <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
                             </a>
                             <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">
-                                <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150'/>
+                                <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
                             </a>
                             <a href='https://twitter.com/' target="_blank" rel="noreferrer">
-                                <FaTwitter className='transition duration-300 ease-in-out hover:scale-150'/>
+                                <FaTwitter className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
                             </a>
                         </motion.div>
                     </div>
@@ -93,7 +93,7 @@ const Contact = () => {
                     name="name"
                     controlId="formName"
                     type="text" 
-                    className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all" 
+                    className="focus:ring-2 focus:ring-blue-500 focus:outline-none bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all text-white" 
                     placeholder='Su nombre'/>
 
                     <ValidationError 
@@ -108,7 +108,7 @@ const Contact = () => {
                     name="email"
                     controlId="formEmail" 
                     type="text" 
-                    className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all" 
+                    className="focus:ring-2 focus:ring-blue-500 focus:outline-none bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all text-white" 
                     placeholder='Su correo electrónico'/>
 
                     <ValidationError 
@@ -122,9 +122,11 @@ const Contact = () => {
                     id="message" 
                     name="message"
                     controlId="formMessage"
-                    className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12" 
+                    className="focus:ring-2 focus:ring-blue-500 focus:outline-none bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12 text-white" 
                     placeholder='Su mensaje'>
                     </textarea>
+
+                    
 
                     <ValidationError 
                         prefix="Message" 

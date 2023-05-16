@@ -11,23 +11,21 @@ import  video1  from '../assets/197.mp4'
 const services = [
   {
     name: 'Personal Trainer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magni eaque libero incidunt soluta recusandae.'
+    description:  'Diseñado específicamente para ti, adaptado a tus necesidades y objetivos. Obtén resultados efectivos con un enfoque personalizado.'
     
   },
   {
     name: 'Entrenamiento online o presencial',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magni eaque libero incidunt soluta recusandae.',
+    description:  'Disfruta de la flexibilidad de elegir entre sesiones de entrenamiento en persona o seguir un programa de entrenamiento estructurado en línea.'
     
   },
   {
-    name: 'Hipertrófia',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magni eaque libero incidunt soluta recusandae..',
-    
+    name: 'Desarrollo de Masa Muscular',
+    description: 'Aumenta tu fuerza y tamaño muscular mediante un plan de entrenamiento especializado y una nutrición adecuada. Alcanza tu máximo potencial de hipertrófia.'
   },
   {
-    name: 'liftering',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magni eaque libero incidunt soluta recusandae.',
-    
+    name: 'Levantamiento de Pesas',
+    description: 'Domina las técnicas de levantamiento de pesas y maximiza tu rendimiento. Mejora tu fuerza, resistencia y forma física con un entrenamiento especializado.'
   },
 
 ]
@@ -46,7 +44,7 @@ const Services = () => {
           className='flex-1 items-center justify-center lg:bg-services lg:bg-bootom bg-no-repeat mix-blend-lighten m-12 lg:mb-0 '>
             <h2 className="text-[55px] font-bold leading-[0.8] lg:text-[55px] text-white">What I Do.</h2>
             <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[25%]" />
-            <h3 className='h3 text-white max-w-[455px] mb-16'>Soy un entrenador con 3 años de experiencia, </h3>
+            <h3 className='h3 text-white max-w-[455px] mb-16'>  "Soy un apasionado entrenador con 3 años de experiencia dedicados a ayudar a mis clientes a alcanzar sus metas de fitness y bienestar. Mi enfoque se basa en brindar un entrenamiento personalizado y un asesoramiento integral para lograr resultados duraderos. Con mi experiencia y conocimientos, te guiaré en cada paso del camino, brindándote las herramientas y la motivación necesarias para transformar tu cuerpo y tu vida. Juntos, construiremos una base sólida, superaremos tus límites y te ayudaré a descubrir tu verdadero potencial. ¡Comienza tu viaje hacia una versión más fuerte y saludable de ti mismo con mi programa de entrenamiento personalizado!" </h3>
             <button className="btn btn-sm rounded-full"><a href="http://github.com" target="_blank" rel="noreferrer"> See my work</a></button>
             <div className='flex items-center w-[100%] pt-6 mt-6'>
               <ReactPlayer url={video1} controls/>

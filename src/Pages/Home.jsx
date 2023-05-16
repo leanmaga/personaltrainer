@@ -11,9 +11,13 @@ import Contact from './Contact'
 import Services from './Services'
 import Banner from './Banner';
 
+import Nav from './Nav';
+
 export default function App() {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+
+      <Nav className='top-0'/>
 
       <Banner/>
 

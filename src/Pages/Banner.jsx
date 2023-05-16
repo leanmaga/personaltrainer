@@ -11,11 +11,14 @@ import { fadeIn } from '../variants';
 import { FaInstagram,  FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 
+
 const Banner = () => {
   return ( 
     <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
       <div className='container mx-auto mt-[5rem]'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+
+         
           
           {/*text*/}
 
@@ -27,7 +30,7 @@ const Banner = () => {
             initial='hidden' 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
-            className='text-[55px] font-bold leading-[0.8] lg:text-[110px] text-white'>
+            className='text-[55px] font-bold leading-[0.8] sm:mt-10 lg:text-[110px] text-white'>
               Matias <span>Carrizo</span>
             </motion.h1>
 
@@ -71,13 +74,13 @@ const Banner = () => {
               viewport={{once: false, amount: 0.8}}  
               className='flex mx-auto text-[20px] lg:text-start gap-x-6 max-w-max lg:mx-0 mb-4 icons-contact'>
               <a href='https://instagram.com/' target="_blank" rel="noreferrer">
-                  <FaInstagram className='transition duration-300 ease-in-out hover:scale-150'/>
+                  <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
               </a>
               <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">
-                  <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150'/>
+                  <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
               </a>
               <a href='https://twitter.com/' target="_blank" rel="noreferrer">
-                  <FaTwitter className='transition duration-300 ease-in-out hover:scale-150'/>
+                  <FaTwitter className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
               </a>
             </motion.div>
 
