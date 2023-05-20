@@ -108,7 +108,7 @@ const Banner = () => {
           variants={fadeIn('down', 0.5)} 
           initial='hidden' 
           whileInView={'show'} 
-          className=' flex-1 max-w-[320px] lg:max-w-[482px] m-[3rem] '>
+          className=' flex mx-auto lg:flex-1 lg:mx-0 items-center max-w-[320px] lg:max-w-[482px] m-[3rem] '>
             
             <div className='figure bg-contain bg-no-repeat transition duration-300 ease-in-out hover:scale-110'>
               <img src={Image} alt='me' />

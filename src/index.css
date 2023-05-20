@@ -86,6 +86,7 @@ button{
   margin-bottom: 2rem;
 }
 
+
 .figure{
   width: 400px;
   height: 470px;
@@ -107,6 +108,7 @@ button{
   top: -10px;
   left: 0;
 }
+
 
 .btn {
   background: linear-gradient(
@@ -170,7 +172,7 @@ button{
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#6156ff] font-bold font-primary hover:from-[#000a79] hover:to-[#42A6E3];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
@@ -182,7 +184,7 @@ button{
   font-size: 2.5rem;
   text-decoration: none;
   font-family: "Bebas Neue", "Helvetica Neue";
-  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 27%, rgba(9,9,121,1) 73%, rgba(0,212,255,1) 100%);;
+  background: -webkit-linear-gradient(90deg, rgba(2,0,255,1) 27%, rgba(9,9,121,1) 73%, rgba(0,212,255,1) 100%);;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -311,6 +313,28 @@ button{
 }
 
 @media screen and (max-width:500px){
+  .figure{
+    width: 200px;
+    height: 270px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 27%, rgba(9,9,121,1) 73%, rgba(0,212,255,1) 100%);
+    border-radius: 43% 55% 70% 40% / 30% 33% 67% 70%;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    background-size: cover;
+    filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 1.7));
+    overflow: hidden;
+    display: flex; flex-flow: column;
+  }
+  .figure img{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    width: 300px;
+    height: auto;
+    filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 1.7));
+    position:absolute;
+    top: -10px;
+    left: 0;
+  }
+
   h1{
     text-align: center;
     font-size: 32px;
