@@ -137,7 +137,10 @@ const Contact = () => {
                     <button 
                     type="submit"
                     disabled={state.submitting}
-                    className="btn btn-lg rounded-full">Enviar Mensaje</button>
+                    className='btn btn-lg rounded-full font-extralight'
+                    >
+                        Enviar Mensaje
+                    </button>
                 </motion.form>
             </div>
         </div>
