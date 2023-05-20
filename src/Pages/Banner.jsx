@@ -103,17 +103,27 @@ const Banner = () => {
           </div>
 
           {/*image*/}
-
           <motion.div 
           variants={fadeIn('down', 0.5)} 
           initial='hidden' 
           whileInView={'show'} 
-          className=' flex mx-auto lg:flex-1 lg:mx-0 items-center max-w-[320px] lg:max-w-[482px] m-[3rem] '>
+          className=' flex content-center lg:flex-1 lg:mx-0 items-center max-w-[320px] lg:max-w-[482px] m-[3rem]'
+          >
+            <h1 className='absolute lg:hidden opacity-10 text-[155px] font-bold leading-[0.8] sm:mt-10 lg:text-[110px] text-white'>FITNESS</h1>
+            <h2 className='absolute  translate-y-[-70px] opacity-70 z-10 m-0 lg:hidden text-[40px] font-bold leading-[0.8] text-white'>You Can</h2>
             
-            <div className='figure bg-contain bg-no-repeat transition duration-300 ease-in-out hover:scale-110'>
-              <img src={Image} alt='me' />
-            </div>
-            
+            <h2 className='absolute  translate-y-[100px] translate-x-[180px] opacity-70 z-10 m-0 lg:hidden text-[40px] font-bold leading-[0.8] text-white'>Join Me!</h2>
+            <motion.div 
+            variants={fadeIn('down', 0.8)} 
+            initial='hidden' 
+            whileInView={'show'} 
+            className=' flex justify-items-center lg:mx-auto lg:flex-1  items-center max-w-[320px] lg:max-w-[482px] m-[3rem] '>
+              
+              <div className='figure  ml-10 lg:ml-0 bg-contain bg-no-repeat transition duration-300 ease-in-out hover:scale-110'>
+                <img src={Image} alt='me' />
+              </div>
+              
+            </motion.div>
           </motion.div>
         </div>
       </div>
