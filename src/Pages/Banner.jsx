@@ -16,7 +16,7 @@ const Banner = () => {
   return ( 
     <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
       <div className='container mx-auto mt-[5rem]'>
-        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+        <div className='flex flex-col gap-y-8 lg:flex-row mt-10 md:mt-0 lg:mt-0 lg:items-center lg:gap-x-12'>
 
          
           
@@ -91,8 +91,8 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg rounded-full'><a href="#contact"> Contáctame </a></button>
-              <a className='text-gradient btn-link'>
+              <button className='btn btn-lg rounded-full'><a href="#contact" className='p-5'> Contáctame </a></button>
+              <a className='text-white opacity-50 btn-link'>
                 Solicitá tu turno
               </a>
             </motion.div>
