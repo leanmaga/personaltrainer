@@ -14,7 +14,7 @@ import { FaInstagram,  FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const Banner = () => {
   return ( 
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center section px-10 mx-10' id='home'>
       <div className='container mx-auto mt-[5rem]'>
         <div className='flex flex-col gap-y-8 lg:flex-row mt-10 md:mt-0 lg:mt-0 lg:items-center lg:gap-x-12'>
 
@@ -31,7 +31,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='text-[55px] font-bold leading-[0.8] sm:mt-10 lg:text-[110px] text-white'>
-              Matias <span>Carrizo</span>
+              Matias <span className='text-red-500'>Carrizo</span>
             </motion.h1>
 
 
@@ -74,13 +74,13 @@ const Banner = () => {
               viewport={{once: false, amount: 0.8}}  
               className='flex mx-auto text-[20px] lg:text-start gap-x-6 max-w-max lg:mx-0 mb-4 icons-contact'>
               <a href='https://instagram.com/' target="_blank" rel="noreferrer">
-                  <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
+                  <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
               </a>
               <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">
-                  <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
+                  <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
               </a>
               <a href='https://twitter.com/' target="_blank" rel="noreferrer">
-                  <FaTwitter className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
+                  <FaTwitter className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
               </a>
             </motion.div>
 
@@ -91,7 +91,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg rounded-full'><a href="#contact" className='p-5'> Contáctame </a></button>
+              <button className=' bg-red-500 rounded-full btn btn-lg'><a href="#contact" className='p-5'> Contáctame </a></button>
               <a className='text-white opacity-50 btn-link'>
                 Solicitá tu turno
               </a>

@@ -14,7 +14,7 @@ const Contact = () => {
     const [state, handleSubmit] = useForm("myyaoora");
     if (state.succeeded) {
         return(
-            <section className='py-16 lg:section' id='contact'>
+            <section className='py-16 lg:section p-10 m-10' id='contact'>
                 <div className="container mx-auto">
                     <div className='flex flex-col lg:flex-row'>
 
@@ -27,7 +27,7 @@ const Contact = () => {
                         viewport={{ once: false, amount: 0.3 }} 
                         className='flex-1 flex justify-start items-center'>
                             <div>
-                                <h4 className='text-[55px] font-bold leading-[0.8] uppercase mb-2 tracking-wide'>Get in touch</h4>
+                                <h4 className='text-[55px] font-bold leading-[0.8] uppercase mb-2 tracking-wide'>Get <span className='text-red-500'>in touch</span></h4>
                                 <h2 className='text-[45px] lg:text-[90px] leading-none mb-12 '>Trabajemos <br />juntos!</h2>
                             </div>
                         </motion.div>
@@ -47,7 +47,7 @@ const Contact = () => {
     }
 
   return (
-    <section className='py-16 lg:section' id='contact'>
+    <section className='py-16 lg:section p-10 m-10' id='contact'>
         <div className="container mx-auto">
             <div className='flex flex-col lg:flex-row'>
                 {/*text*/}
@@ -58,9 +58,9 @@ const Contact = () => {
                 viewport={{ once: false, amount: 0.3 }} 
                 className='flex-1 flex justify-start items-center m-4 p-4'>
                     <div>
-                        <h4 className='text-[55px] font-bold leading-[0.8] uppercase mb-2 tracking-wide text-white'>Get in touch</h4>
+                        <h4 className='text-[55px] font-bold leading-[0.8] uppercase mb-2 tracking-wide text-white'>Get <span className='text-red-500'>in touch</span></h4>
                         <hr class="my-6 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50 w-[35%]" />
-                        <h2 className='text-[45px] lg:text-[90px] text-white leading-none mb-12 '>Trabajemos <br />juntos!</h2>
+                        <h2 className='text-[45px] lg:text-[60px] text-white leading-none mb-12 '>Trabajemos <br />juntos!</h2>
                         <motion.div 
                             variants={fadeIn('up', 0.7)} 
                             initial='hidden' 
@@ -68,13 +68,13 @@ const Contact = () => {
                             viewport={{once: false, amount: 0.8}}  
                             className='flex text-[20px] gap-x-6 max-w-max lg:mx-0 mb-4 icons-contact'>
                             <a href='https://instagram.com/' target="_blank" rel="noreferrer">
-                                <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
+                                <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
                             </a>
                             <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">
-                                <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
+                                <FaLinkedinIn className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
                             </a>
                             <a href='https://twitter.com/' target="_blank" rel="noreferrer">
-                                <FaTwitter className='transition duration-300 ease-in-out hover:scale-150 text-blue-500'/>
+                                <FaTwitter className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
                             </a>
                         </motion.div>
                     </div>
@@ -137,7 +137,7 @@ const Contact = () => {
                     <button 
                     type="submit"
                     disabled={state.submitting}
-                    className='btn btn-lg rounded-full font-extralight'
+                    className='bg-red-500 rounded-full font-extralight btn btn-lg'
                     >
                         Enviar Mensaje
                     </button>
