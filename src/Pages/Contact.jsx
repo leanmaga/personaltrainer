@@ -137,7 +137,7 @@ const Contact = () => {
                     <button 
                     type="submit"
                     disabled={state.submitting}
-                    className='bg-red-500 rounded-full font-extralight btn btn-lg'
+                    className='btn rounded-full bg-red-500'
                     >
                         Enviar Mensaje
                     </button>

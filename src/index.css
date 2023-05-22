@@ -17,13 +17,11 @@ body {
   background-size: 100% 10%;
 }
 
-
-button {
+.btn {
   font-family: "Bebas Neue", "Helvetica Neue";
   color: #ffffff;
   padding: 1rem 1rem;
   font-size: 16px;
-  background-color: #007bff;
   letter-spacing: 2px;
 }
 
