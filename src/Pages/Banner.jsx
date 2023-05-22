@@ -14,7 +14,7 @@ import { FaInstagram,  FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const Banner = () => {
   return ( 
-    <section className='w-[100%] min-h-[100vh] lg:min-h-[100vh] flex items-center section mt-10 lg:m-10 md:p-10 md:m-10' id='home'>
+    <section className=' min-h-[100vh] lg:min-h-[100vh] flex items-center section mt-10 lg:m-10 md:p-10 md:m-10' id='home'>
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row md:mt-0 lg:mt-0 lg:items-center lg:gap-x-12'>
           
@@ -70,7 +70,7 @@ const Banner = () => {
               initial='hidden' 
               whileInView={'show'} 
               viewport={{once: false, amount: 0.8}}  
-              className='flex mx-auto text-[20px] lg:text-start gap-x-6 max-w-max lg:mx-0 mb-4 icons-contact'>
+              className='flex mx-auto text-[20px] lg:text-start gap-x-6 max-w-max lg:mx-0  icons-contact'>
               <a href='https://instagram.com/' target="_blank" rel="noreferrer">
                   <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
               </a>
@@ -105,7 +105,7 @@ const Banner = () => {
           variants={fadeIn('down', 0.5)} 
           initial='hidden' 
           whileInView={'show'} 
-          className=' flex content-center lg:flex-1 lg:mx-0 items-center max-w-[320px] lg:max-w-[482px] m-[3rem]'
+          className=' flex section content-center lg:flex-1 lg:mx-0 items-center max-w-[320px] lg:max-w-[482px] m-[3rem]'
           >
             <h1 className='absolute lg:hidden opacity-10 text-[155px] font-bold leading-[0.8] sm:mt-10 lg:text-[110px] text-white'>FITNESS</h1>
             <h2 className='absolute  translate-y-[-70px] opacity-70 z-10 m-0 lg:hidden text-[40px] font-bold leading-[0.8] text-white'>You Can</h2>
