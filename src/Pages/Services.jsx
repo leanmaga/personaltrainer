@@ -31,7 +31,7 @@ const services = [
 ]
 const Services = () => {
   return (
-    <section className='section px-10 mx-10' id='services'>
+    <section className='section lg:m-10 md:p-10 md:m-10' id='services'>
       <div className="container">
         <div className='flex flex-col lg:flex-row'>
           {/*text and img*/}

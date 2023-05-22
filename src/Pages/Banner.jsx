@@ -14,11 +14,9 @@ import { FaInstagram,  FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const Banner = () => {
   return ( 
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center section px-10 mx-10' id='home'>
-      <div className='container mx-auto mt-[5rem]'>
+    <section className='min-h-[100vh] lg:min-h-[100vh] flex items-center section lg:m-10 md:p-10 md:m-10' id='home'>
+      <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row mt-10 md:mt-0 lg:mt-0 lg:items-center lg:gap-x-12'>
-
-         
           
           {/*text*/}
 

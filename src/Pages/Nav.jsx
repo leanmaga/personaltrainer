@@ -12,7 +12,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <nav className='fixed top-0 left-0 right-0'>
+    <nav className='fixed z-10 bottom-0 left-0 right-0'>
     <div className='container mx-auto '>
       {/*nav inner*/}
       <div className='w-full bg-black/20 h-[100px] rounded-full max-w-[460px] mx-auto p-5 flex justify-between text-white/50 '>

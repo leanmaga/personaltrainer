@@ -17,7 +17,7 @@ const About = () => {
     threshold: 0.5,
   })
 
-  return <section id='about' className='section p-10 m-10' ref={ref}>
+  return <section id='about' className='section lg:p-10 lg:m-10 md:p-10 md:m-10' ref={ref}>
 
     <div className='container sm:mt-10'>
 
