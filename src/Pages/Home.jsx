@@ -33,6 +33,8 @@ export default function App() {
       <Services/>
 
       <Contact/>
+
+    <div className='lg:h-10'></div>
        
     </div>
     
