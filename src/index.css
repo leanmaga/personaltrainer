@@ -17,19 +17,14 @@ body {
   background-size: 100% 10%;
 }
 
-button {
-  min-width: 100px;
-  min-height: 50px;
-  padding: 10px;
-}
 
 button {
-  padding: 0 20px;
+  font-family: "Bebas Neue", "Helvetica Neue";
+  color: #ffffff;
+  padding: 1rem 1rem;
   font-size: 16px;
-  font-family: sans-serif;
-  line-height: 1.5;
-  color: #fff;
   background-color: #007bff;
+  letter-spacing: 2px;
 }
 
 button {
@@ -151,15 +146,6 @@ button{
   }
   .h3 {
     @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
-  }
-  .btn {
-    @apply rounded-full font-primary text-white font-medium;
-  }
-  .btn-sm {
-    @apply h-[48px] px-6 text-sm;
-  }
-  .btn-lg {
-    @apply h-[56px] px-10 text-base;
   }
   .btn-link {
     @apply text-base;
