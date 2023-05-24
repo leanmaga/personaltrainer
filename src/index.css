@@ -31,7 +31,7 @@ body {
     @apply text-base;
   }
   .section {
-    @apply py-8 flex items-center;
+    @apply py-8 flex items-center min-h-screen;
   }
 }
 
@@ -182,6 +182,7 @@ button{
 
 @media screen and (max-width:500px){
   .figure{
+    
     width: 200px;
     height: 270px;
     background: rgb(2,0,36);

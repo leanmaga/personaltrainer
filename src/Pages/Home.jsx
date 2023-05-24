@@ -34,7 +34,7 @@ export default function App() {
 
       <Contact/>
 
-    <div className='lg:h-10'></div>
+      <div className='xl:h-20'></div>
        
     </div>
     

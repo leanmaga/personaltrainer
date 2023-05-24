@@ -7,12 +7,6 @@ module.exports = {
       tertiary: 'Aldrich',
     },
     container: {
-      padding: {
-        DEFAULT: '1rem',
-      },
-      margin: {
-        DEFAULT: '1rem',
-      },
       height: {
         DEFAULT: '100vh',
       },
