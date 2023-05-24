@@ -8,9 +8,9 @@ import ImageBanner from '../components/ImageBanner';
 
 const Banner = () => {
   return ( 
-    <section className=' min-h-[100vh] lg:min-h-[100vh] flex items-center section mt-20 lg:m-4 md:p-10 md:m-10' id='home'>
+    <div className='flex items-center section lg:mt-0 mt-20  md:p-10 md:m-10' id='home'>
 
-      <div className='container mx-auto'>
+      <div className='container'>
 
         <div className='flex flex-col gap-y-8 lg:flex-row md:mt-0 lg:mt-0 lg:items-center lg:gap-x-12'>
           
@@ -38,7 +38,7 @@ const Banner = () => {
 
       </div>
 
-    </section>
+    </div>
   );
 };
 

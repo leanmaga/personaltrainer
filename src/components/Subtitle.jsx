@@ -16,7 +16,7 @@ const Subtitle = () => {
             initial='hidden' 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
-            className='mb-6 text-[36px] lg:text-[60px] text-white font-secondary font-semibold leading-[1]'>
+            className='mb-6 text-[36px] lg:text-[50px] text-white font-secondary font-semibold leading-[1]'>
               
               <TypeAnimation sequence={[
                 'Personal Trainer',

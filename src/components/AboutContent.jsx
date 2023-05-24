@@ -27,11 +27,10 @@ const AboutContent = () => {
           ref={ref}
           >
 
-            <Title TituloPrincipal='About' TituloSpan='me'/>
+            <Title TituloPrincipal='Acerca' TituloSpan='de mi'/>
 
             <Subrayado/>
 
-            <h3 className='h3 mb-4 text-white text-lg font-extrabold t'>Hola! Me llamo Matias Carrizo</h3>
             <p className='mb-6 text-blue-50 text-start'>Me especializo en entrenamiento personzalizado</p>
             
             {/*stats*/}
@@ -39,16 +38,16 @@ const AboutContent = () => {
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               
               <div className='mb-4'>
-                <div className='text-[40px] font-tertiary text-gradient mt-4 mb-2 text-gradient-blue'>
+                <div className='text-[40px] font-extrabold mt-4 mb-2 text-red-500'>
                   { inView ?
                       <CountUp start={0} end={3} duration={3}/> : null
                   }+
                 </div>
-                <div className='font-primary text-sm tracking-[2px] text-indigo-200'>Años de <br/> experiencia</div>
+                <div className='font-primary text-sm tracking-[2px] text-red-200'>Años de <br/> experiencia</div>
               </div>
 
               <div className='mb-4'>
-                <div className='text-[40px] font-tertiary text-gradient mt-4  mb-2  text-gradient-blue'>
+                <div className='text-[40px] font-extrabold mt-4  mb-2  text-red-500'>
                   { inView ?
                       <CountUp start={0} end={30} duration={3}/> : null
                   }+
@@ -57,7 +56,7 @@ const AboutContent = () => {
               </div>
 
               <div className='mb-4'>
-                <div className='text-[40px] font-tertiary text-gradient mt-4 mb-2 text-gradient-blue'>
+                <div className='text-[40px] font-extrabold mt-4 mb-2 text-red-500'>
                   { inView ?
                       <CountUp start={0} end={20} duration={3}/> : null
                   }+
@@ -67,9 +66,6 @@ const AboutContent = () => {
               
             </div>
 
-            <div className='flex gap-x-8 items-center'>
-              <ButtonBanner/>
-            </div>
 
         </motion.div>
 

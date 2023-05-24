@@ -8,8 +8,6 @@ import { BsClipboardData, /*BsBriefcase,*/ BsChatSquareText } from 'react-icons/
 
 import { Link } from 'react-scroll';
 
-import React from 'react'
-
 const Nav = () => {
   return (
     <nav className='fixed z-10 bottom-0 left-0 right-0'>

@@ -19,10 +19,10 @@ const ContentAbout = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}  
-          className='flex-1 items-center justify-center lg:bg-services lg:bg-bootom bg-no-repeat mix-blend-lighten m-12 lg:mb-0'
+          className='flex-1 items-center justify-center lg:bg-services lg:bg-bootom bg-no-repeat mix-blend-lighten m-4 lg:mb-0'
           >
             
-            <Title TituloPrincipal='What' TituloSpan='I Do'/>
+            <Title TituloPrincipal='Mi pasión' TituloSpan='convertida en Acción'/>
             
             <Subrayado/>
 
@@ -39,7 +39,6 @@ const ContentAbout = () => {
             '/>
 
            
-            <ButtonBanner/>
 
           </motion.div>
           

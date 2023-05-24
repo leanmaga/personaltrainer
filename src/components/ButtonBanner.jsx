@@ -16,8 +16,8 @@ const ButtonBanner = () => {
         viewport={{once: false, amount: 0.7}} 
         className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
         >
-            <button className=' bg-red-500 rounded-full btn'>
-              <a href="#contact" className='p-5'> Contáctame </a>
+            <button className='btn inline-block px-6 py-4 bg-red-500 rounded-full shadow-sm font-medium transition duration-1000  ease-in-out '>
+              <a href="#contact" className='p-5'> Contactame </a>
             </button>
             <a className='text-white opacity-50 btn-link'>
             Solicitá tu turno

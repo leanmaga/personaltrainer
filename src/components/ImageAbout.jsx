@@ -14,7 +14,7 @@ const ImageAbout = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}  
-        className='flex-1 mix-blend-lighten bg-top sm:mt-10'
+        className='flex-1 mix-blend-lighten sm:mt-10'
         >
             <img src={pesas} alt="levantando pesas" className='bg-about bg-contain bg-no-repeat h-[240px] md:h-[380px] lg:h-[380px] transition duration-300 ease-in-out hover:scale-110 '/>
         </motion.div>

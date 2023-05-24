@@ -34,7 +34,7 @@ export default function App() {
 
       <Contact/>
 
-      <div className='xl:h-20'></div>
+      <div className='h-20 '></div>
        
     </div>
     
