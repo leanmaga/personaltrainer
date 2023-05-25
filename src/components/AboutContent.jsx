@@ -6,7 +6,6 @@ import {fadeIn} from '../variants'
 import CountUp from 'react-countup'
 //intersection observer hook
 import {useInView} from 'react-intersection-observer';
-import ButtonBanner from './ButtonBanner';
 import Title from './Title';
 import Subrayado from './Subrayado';
 
@@ -35,7 +34,7 @@ const AboutContent = () => {
             
             {/*stats*/}
 
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
+            <div className='flex gap-x-6 lg:gap-x-10 '>
               
               <div className='mb-4'>
                 <div className='text-[40px] font-extrabold mt-4 mb-2 text-red-500'>

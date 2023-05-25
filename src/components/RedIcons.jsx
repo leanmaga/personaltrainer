@@ -18,7 +18,7 @@ const RedIcons = () => {
             viewport={{once: false, amount: 0.8}}  
             className='flex mx-auto text-[20px] lg:text-start gap-x-6 max-w-max lg:mx-0  icons-contact'
         >
-            <a href='https://instagram.com/' target="_blank" rel="noreferrer">
+            <a href='https://www.instagram.com/matias_b_carrizo' target="_blank" rel="noreferrer">
                 <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
             </a>
             <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">

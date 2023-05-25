@@ -4,7 +4,7 @@ import ImageAbout from '../components/ImageAbout';
 const About = () => {
   return (
     <>
-      <section id='about' className='min-h-[100vh] lg:min-h-[100vh] flex justify-around items-center section md:p-10 ' >
+      <section id='about' className='flex justify-around items-center section md:p-10 about' >
 
         <div className='flex justify-around container sm:mt-10'>
 

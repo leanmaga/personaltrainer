@@ -1,7 +1,7 @@
 //import icons
 
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, /*BsBriefcase,*/ BsChatSquareText } from 'react-icons/bs';
+import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
 
 
 //link
@@ -13,17 +13,18 @@ const Nav = () => {
     <nav className='fixed z-10 bottom-0 left-0 right-0'>
     <div className='container mx-auto '>
       {/*nav inner*/}
-      <div className='w-full bg-black/20 h-[100px] rounded-full max-w-[300px] mx-auto p-5 flex justify-between text-white/50 '>
-        <Link 
+      <div className='w-full bg-black/20 h-[100px] rounded-full max-w-[360px] mx-auto p-5 flex justify-between text-white/50 '>
+            <Link 
               to='home'
               activeClass='active'
               smooth={true}
               spy={true} 
-              offset={-200}
+              offset={0}
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center' 
             >
               <BiHomeAlt/>
             </Link>
+
             <Link 
               to='about'
               activeClass='active'
@@ -33,6 +34,7 @@ const Nav = () => {
             >
               <BiUser/>
             </Link>
+
             <Link 
               to='services'
               activeClass='active'
@@ -42,20 +44,23 @@ const Nav = () => {
             >
               <BsClipboardData/>
             </Link>
-            {/*<Link 
-              to='work' 
+
+            <Link 
+              to='video' 
               activeClass='active'
               smooth={true}
               spy={true} 
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' 
             >
               <BsBriefcase/>
-      </Link>*/}
+            </Link>
+            
             <Link 
               to='contact'
               activeClass='active'
               smooth={true}
               spy={true}  
+              offset={200}
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' 
             >
               <BsChatSquareText/>

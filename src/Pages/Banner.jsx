@@ -8,15 +8,15 @@ import ImageBanner from '../components/ImageBanner';
 
 const Banner = () => {
   return ( 
-    <div className='flex items-center section lg:mt-0 mt-20  md:p-10 md:m-10' id='home'>
+    <div className='flex items-center section md:pl-10 md:pr-10 md:mr-10 md:ml-10 sm:mt-20 banner' id='home'>
 
       <div className='container'>
 
-        <div className='flex flex-col gap-y-8 lg:flex-row md:mt-0 lg:mt-0 lg:items-center lg:gap-x-12'>
+        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           
           <div className='flex-1 text-center font-secondary lg:text-left'>
 
-            <Title TituloPrincipal='Matias' TituloSpan='Carrizo'/>
+            <Title TituloPrincipal='Matías' TituloSpan='Carrizo'/>
             
             <Subtitle/>
 
