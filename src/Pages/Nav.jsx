@@ -1,8 +1,9 @@
 //import icons
 
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
-
+import { BsChatSquareText } from 'react-icons/bs';
+import { RxVideo } from 'react-icons/rx'
+import { MdOutlineFitnessCenter } from 'react-icons/md'
 
 //link
 
@@ -42,7 +43,7 @@ const Nav = () => {
               spy={true} 
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' 
             >
-              <BsClipboardData/>
+              <MdOutlineFitnessCenter/>
             </Link>
 
             <Link 
@@ -52,7 +53,7 @@ const Nav = () => {
               spy={true} 
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' 
             >
-              <BsBriefcase/>
+              <RxVideo/>
             </Link>
             
             <Link 
