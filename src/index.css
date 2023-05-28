@@ -207,7 +207,53 @@ body {
     margin:4rem 2rem;
   }
 }
-
+@media screen and (max-width:1000px){
+  .banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+}
 
 .videos{
   background-color: #000000;
