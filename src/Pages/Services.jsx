@@ -6,7 +6,7 @@ import ContentAbout from '../components/ContentAbout';
 
 const Services = () => {
   return (
-    <section className='section lg:m-10 md:p-10 md:m-10' id='services'>
+    <section className='section lg:m-10 md:p-10 md:m-10 services' id='services'>
 
       <div className="section container">
 
