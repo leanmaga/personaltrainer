@@ -22,21 +22,21 @@ const AboutContent = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1"
+          className="flex-1 max-w-full p-4 pt-0 lg:p-0 justify-center text-center"
           ref={ref}
           >
 
-            <Title TituloPrincipal='Acerca' TituloSpan='de mi'/>
+            <Title TituloPrincipal='Acerca' TituloSpan='de mí'/>
 
             <Subrayado/>
 
-            <p className='mb-6 text-blue-50 text-start'>Me especializo en entrenamiento personzalizado</p>
+            <p className='m-6 text-blue-50 lg:text-start text-center '>Me especializo en entrenamiento personzalizado de alta resistencia</p>
             
             {/*stats*/}
 
-            <div className='flex gap-x-6 lg:gap-x-10 '>
+            <div className='flex justify-center gap-x-4 lg:gap-x-10 '>
               
-              <div className='mb-4'>
+              <div className='mb-6'>
                 <div className='text-[40px] font-extrabold mt-4 mb-2 text-red-500'>
                   { inView ?
                       <CountUp start={0} end={3} duration={3}/> : null

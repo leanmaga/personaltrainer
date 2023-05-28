@@ -8,7 +8,7 @@ import ImageBanner from '../components/ImageBanner';
 
 const Banner = () => {
   return ( 
-    <div className='flex items-center section md:pl-10 md:pr-10 md:mr-10 md:ml-10 sm:mt-20 banner' id='home'>
+    <div className='flex justify-center items-center md:pl-8 md:pr-8 md:mr-8 md:ml-8 sm:mt-20 banner' id='home'>
 
       <div className='container'>
 
@@ -28,7 +28,7 @@ const Banner = () => {
             
           </div>
 
-          <div className='flex-1 justify-around'>
+          <div className='flex-1 md:m-8 lg:justify-around'>
 
             <ImageBanner/>
 
