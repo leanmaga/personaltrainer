@@ -8,33 +8,25 @@ import ImageBanner from '../components/ImageBanner';
 
 const Banner = () => {
   return ( 
-    <div className='flex justify-center items-center md:pl-8 md:pr-8 md:mr-8 md:ml-8 sm:mt-20 banner' id='home'>
+    <div className='banner' id='home'>
 
-      <div className='container'>
+      <div className='flex-1 text-center font-secondary lg:text-left'>
 
-        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
-          
-          <div className='flex-1 text-center font-secondary lg:text-left'>
+        <Title TituloPrincipal='Matías' TituloSpan='Carrizo'/>
+        
+        <Subtitle/>
 
-            <Title TituloPrincipal='Matías' TituloSpan='Carrizo'/>
-            
-            <Subtitle/>
+        <NextLevel/>
 
-            <NextLevel/>
+        <RedIcons/>
 
-            <RedIcons/>
+        <ButtonBanner/>
+        
+      </div>
 
-            <ButtonBanner/>
-            
-          </div>
+      <div className=''>
 
-          <div className='flex-1 md:m-8 lg:justify-around'>
-
-            <ImageBanner/>
-
-          </div>
-
-        </div>
+        <ImageBanner/>
 
       </div>
 

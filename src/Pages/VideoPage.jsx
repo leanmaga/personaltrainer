@@ -11,14 +11,12 @@ import Video from '../components/Video';
 const VideoPage = () => {
   return (
     <>
-        <div id='video' className="flex items-center section lg:m-10 md:p-10 md:m-10 videos">
-          <div className="container">
-            <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-6'>
-                <Video VideoProps={video1} className='z-2'/>
-                <Video VideoProps={video2} className='z-2'/>
-            </div>
+      <div id='video' className="videos">
+          <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-6'>
+              <Video VideoProps={video1} className='z-2'/>
+              <Video VideoProps={video2} className='z-2'/>
           </div>
-        </div>
+      </div>  
     </>
   )
 }
