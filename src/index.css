@@ -207,7 +207,23 @@ body {
     margin:4rem 2rem;
   }
 }
-
+@media screen and (mim-width:1000px){
+  .banner{
+    min-height: 100vh;
+  }
+  .about{
+    min-height: 100vh;
+  }
+  .services{
+    min-height: 100vh;
+  }
+  .videos{
+    min-height: 100vh;
+  }
+  .contact{
+    min-height: 100vh;
+  }
+}
 
 .videos{
   background-color: #000000;
