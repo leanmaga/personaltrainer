@@ -207,6 +207,7 @@ body {
     margin:4rem 2rem;
   }
 }
+<<<<<<< HEAD
 @media screen and (mim-width:1000px){
   .banner{
     min-height: 100vh;
@@ -221,6 +222,52 @@ body {
     min-height: 100vh;
   }
   .contact{
+=======
+@media screen and (min-width:1000px){
+  .banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+>>>>>>> 8a3cc274bd700c6dc50dfc7f0761e75714b807bc
     min-height: 100vh;
   }
 }
