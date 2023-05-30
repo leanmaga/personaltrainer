@@ -42,7 +42,7 @@ const AboutContent = () => {
                       <CountUp start={0} end={3} duration={3}/> : null
                   }+
                 </div>
-                <div className='font-primary text-sm tracking-[2px] text-red-200'>Años de <br/> experiencia</div>
+                <div className='font-primary text-sm tracking-[2px] text-indigo-200'>Años de <br/> experiencia</div>
               </div>
 
               <div className='mb-4'>
