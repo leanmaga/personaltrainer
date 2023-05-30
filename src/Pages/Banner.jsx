@@ -22,9 +22,9 @@ const Banner = () => {
 
         <ButtonBanner/>
         
-      </div>
+      </div> 
 
-      <div className=''>
+      <div className='flex-1 text-center lg:text-left'>
 
         <ImageBanner/>
 
