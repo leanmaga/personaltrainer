@@ -3,8 +3,6 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Bebas Neue',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
     },
     container: {
       height: {
@@ -18,14 +16,8 @@ module.exports = {
       xl: '1200px',
     },
     extend: {
-      colors: {
-        primary: '#0a0a0a',
-        accent: '#B809C3',
-      },
       backgroundImage: {
-        /*site: "url('./assets/bg3.jpg')",*/
         about: "url('./assets/mc-pesas.jpg')",
-        /*services: "url('./assets/services.png')",*/
       },
     },
   },

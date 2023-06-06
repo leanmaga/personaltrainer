@@ -21,25 +21,30 @@ const Form = () => {
                         {/*text*/}
 
                         <motion.div
-                        variants={fadeIn('right', 0.3)} 
-                        initial='hidden'
-                        whileInView={'show'}
-                        viewport={{ once: false, amount: 0.3 }} 
-                        className='flex-1 flex justify-start items-center'>
-                            <div>
-                                <Title TituloPrincipal='Ponte' TituloSpan='en contacto!'/>
-                                <Subrayado/>
-                                <RedIcons/>
-                            </div>
+
+                            variants={fadeIn('right', 0.3)} 
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.3 }} 
+                            className='flex-1 flex justify-start items-center'>
+                                <div>
+                                    <Title TituloPrincipal='Ponte' TituloSpan='en contacto!'/>
+                                    <Subrayado/>
+                                    <RedIcons/>
+                                </div>
+                        
                         </motion.div>
-                        <motion.div
-                        onSubmit={handleSubmit}
-                        variants={fadeIn('left', 0.5)} 
-                        initial='hidden'
-                        whileInView={'show'}
-                        viewport={{ once: false, amount: 0.3 }}  
-                        className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-center justify-center '>
-                            <p className='flex justify-center items-center'>¡Gracias por contactarme!</p>
+
+                         <motion.div
+
+                            onSubmit={handleSubmit}
+                            variants={fadeIn('left', 0.5)} 
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.3 }}  
+                            className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-center justify-center '>
+                                <p className='flex justify-center items-center'>¡Gracias por contactarme!</p>
+                                
                         </motion.div>
                         
                     </div>

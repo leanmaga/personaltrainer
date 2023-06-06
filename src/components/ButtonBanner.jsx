@@ -14,7 +14,7 @@ const ButtonBanner = () => {
         initial='hidden' 
         whileInView={'show'} 
         viewport={{once: false, amount: 0.7}} 
-        className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
+        className='flex lg:text-start text-center max-w-max gap-x-6 items-center mb-12'
         >
             <button className='btn inline-block px-6 py-4 bg-red-500 rounded-full shadow-sm font-medium transition duration-1000  ease-in-out '>
               <a href="#contact" className='p-5'> Contactame </a>

@@ -10,7 +10,7 @@ const Banner = () => {
   return ( 
     <div className='banner' id='home'>
 
-      <div className='flex-1 text-center font-secondary lg:text-left'>
+      <div className='text-center font-secondary'>
 
         <Title TituloPrincipal='Matías' TituloSpan='Carrizo'/>
         
@@ -24,7 +24,7 @@ const Banner = () => {
         
       </div> 
 
-      <div className='flex-1 text-center lg:text-left'>
+      <div className='text-center'>
 
         <ImageBanner/>
 

@@ -24,7 +24,7 @@ const Contact = () => {
                 <div>
                     <Title TituloPrincipal='Ponte' TituloSpan='en contacto!'/>
                     <Subrayado/>
-                    <RedIcons/>
+                    <RedIcons />
                 </div>
             </motion.div>
             
