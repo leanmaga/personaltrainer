@@ -26,7 +26,6 @@ body {
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  padding: 0 5rem;
 }
 .about{
   display: flex;
@@ -209,10 +208,7 @@ body {
 
 
 @media screen and (max-width:1024px){
-  .banner{
-    flex-direction: row;
-    justify-content: space-around;
-  }
+  
   .figure{
     width: 400px;
     height: 370px;
@@ -258,19 +254,6 @@ body {
     position:absolute;
     top: -10px;
     left: 0;
-  }
-
-  h1{
-    text-align: center;
-    font-size: 32px;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-  }
-  h4{
-    font-size: 24px;
-  }
-  .banner{
-    min-height: 150vh;
   }
 
 }

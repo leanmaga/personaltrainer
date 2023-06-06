@@ -42,8 +42,7 @@ export default function App() {
       <VideoPage/>
 
       <Contact/>
-
-      <div className='text-white w-100'>
+{/* <div className='text-white w-100'>
         <div>
           <div>
               <button
@@ -65,7 +64,8 @@ export default function App() {
               </button>
           </div>
       </div>
-      </div>
+      </div> */}
+     
        
     </div>
     

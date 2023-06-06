@@ -22,7 +22,7 @@ const AboutContent = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex flex-column max-w-full p-4 pt-0 lg:p-0 justify-center text-center"
+          className="justify-center text-center"
           ref={ref}
           >
 

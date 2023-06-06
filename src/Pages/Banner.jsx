@@ -8,14 +8,14 @@ import ImageBanner from '../components/ImageBanner';
 
 const Banner = () => {
   return ( 
-    <div className='banner' id='home'>
+    <div className='banner flex-row' id='home'>
 
-      <div className='text-center font-secondary'>
+      <div className='text-center font-secondary pt-20'>
 
         <Title TituloPrincipal='Matías' TituloSpan='Carrizo'/>
         
         <Subtitle/>
-
+ 
         <NextLevel/>
 
         <RedIcons/>
