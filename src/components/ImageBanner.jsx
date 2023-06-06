@@ -19,9 +19,7 @@ const ImageBanner = () => {
         className=' flex content-center m-0 p-0 lg:p-12 lg:flex-1 items-center max-w-[320px] lg:max-w-[482px] '
         >
 
-            <h1 className='absolute md:hidden lg:hidden opacity-10 text-[130px] font-bold leading-[0.8] sm:mt-10 md:text-[250px] text-white'>FITNESS</h1>
-            
-            
+           
             <motion.div 
             variants={fadeIn('down', 0.8)} 
             initial='hidden' 
