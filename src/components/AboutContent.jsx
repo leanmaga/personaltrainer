@@ -30,7 +30,7 @@ const AboutContent = () => {
 
             <Subrayado/>
 
-            <p className='m-6 text-blue-50 lg:text-start text-center '>Me especializo en entrenamiento personzalizado de alta resistencia</p>
+            <p className='my-6 text-blue-50 lg:text-start text-center '>Me especializo en entrenamiento personzalizado de alta resistencia</p>
             
             {/*stats*/}
 
