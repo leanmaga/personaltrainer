@@ -7,7 +7,6 @@ import { fadeIn } from '../variants';
 import '../index.css';
 //icons
 import { FaInstagram,  FaWhatsapp } from 'react-icons/fa';
-import { MdOutlineMarkEmailRead } from 'react-icons/md'
 import EmailButton from './EmailButton';
 
 const RedIcons = () => {
@@ -23,7 +22,8 @@ const RedIcons = () => {
             <a href='https://www.instagram.com/matias_b_carrizo' target="_blank" rel="noreferrer">
                 <FaInstagram className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
             </a>
-            <a href='https://api.whatsapp.com/send?phone=5491127764823&text=Hola%20,quería%20asesoramiento%20por%20whatsapp.' target="_blank" rel="noreferrer">
+            
+            <a href='https://api.whatsapp.com/send?phone=5491165710646&text=Hola%20,quería%20asesoramiento%20por%20whatsapp.' target="_blank" rel="noreferrer">
                 <FaWhatsapp className='transition duration-300 ease-in-out hover:scale-150 text-red-500'/>
             </a>
             
